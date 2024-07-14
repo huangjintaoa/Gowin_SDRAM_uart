@@ -12,13 +12,6 @@ Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 Top level modules:
 	SDRAM_controller_top_SIP
 
-} {} {}} D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module tb_sdram_top
-
-Top level modules:
-	tb_sdram_top
-
 } {} {}} D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.vo {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.vo
 Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module fifo_sc_top

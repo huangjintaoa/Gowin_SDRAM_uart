@@ -16,7 +16,10 @@
 - 
 ### 4. **work**  
 - `work` 存放modelsim仿真内容
-  
+
+### 5. **picture**
+- `picture`存放了上板的图片，使用的板子是speed公司开发的tang25k板卡，板载了高云5A芯片
+
 ### .gprj  
 - 可以点击它直接打开工程
   
