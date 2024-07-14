@@ -111,7 +111,7 @@ IPtop IPtop_inst(
 defparam    sdram_mode_plus_inst.addr_bits  =13             ;
 defparam    sdram_mode_plus_inst.data_bits  =16             ;
 defparam    sdram_mode_plus_inst.col_bits    =9              ;
-defparam    sdram_mode_plus_inst.mem_sizes  =2*1024*1024    ;
+defparam    sdram_mode_plus_inst.mem_sizes  =2*1024*1024    ;//此处应该要是4*1023*1024，因为所使用的sdram仿真文件空间不够，4改2
 
 
 // sdr sdram_mode_plus_inst(
