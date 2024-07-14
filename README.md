@@ -11,6 +11,7 @@
   
 ### 2. **src**  
 - `src` 包含了uart_tx 、 rx 文件和控制SDRAM的两个模块IPtop、IPsdram ，还有 高云IP管理器自动生成的的IP文件夹 ，IP文件夹内还有的vo文件为仿真工程所需要。uart波特率9600，整个系统出现的所有时钟均为50MHz。上板的时候，需要去两个uart文件内取消`进入仿真` 的那一行代码 ，所使用的SDRAM为256M，华邦
+- sdram控制IP使用的是外挂SDRAM的ip控制器，名字为SDRAM ControlLer(with external SDRAM) , 配置参数如文件夹picture内的图SDRAM配置.png所示
   
 ### 3. **impl**  
 - 
