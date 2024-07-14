@@ -1,0 +1,69 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/IPsdram_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/cmd_decode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/sdram_aref.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/sdram_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/sdram_read.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/sdram_write.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Quartus/SDRAM_uart/src/uart_tx.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Quartus/SDRAM_uart/impl/temp/rtl_parser.result",
+ "Top" : "IPtop",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

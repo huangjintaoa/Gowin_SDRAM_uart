@@ -1,0 +1,558 @@
+D:/Quartus/SDRAM_uart/SIM/sdram_model_plus.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/SIM/sdram_model_plus.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sdram_model_plus
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.vo {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.vo
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module SDRAM_controller_top_SIP
+
+Top level modules:
+	SDRAM_controller_top_SIP
+
+} {} {}} D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_sdram_top
+
+Top level modules:
+	tb_sdram_top
+
+} {} {}} D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.vo {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.vo
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module fifo_sc_top
+
+Top level modules:
+	fifo_sc_top
+
+} {} {}} D:/Quartus/SDRAM_uart/src/uart_rx.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/uart_rx.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} D:/Quartus/SDRAM_uart/src/gowin_pll/gowin_pll.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/gowin_pll/gowin_pll.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module Gowin_PLL
+
+Top level modules:
+	Gowin_PLL
+
+} {} {}} D:/Quartus/SDRAM_uart/SIM/older_prim_sim.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/SIM/older_prim_sim.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling UDP mux2
+-- Compiling module MUX2
+-- Compiling module MUX2_LUT5
+-- Compiling module MUX2_LUT6
+-- Compiling module MUX2_LUT7
+-- Compiling module MUX2_LUT8
+-- Compiling module MUX2_MUX8
+-- Compiling module MUX2_MUX16
+-- Compiling module MUX2_MUX32
+-- Compiling module MUX4
+-- Compiling module MUX8
+-- Compiling module MUX16
+-- Compiling module MUX32
+-- Compiling module LUT1
+-- Compiling module LUT2
+-- Compiling module LUT3
+-- Compiling module LUT4
+-- Compiling module LUT5
+-- Compiling module LUT6
+-- Compiling module LUT7
+-- Compiling module LUT8
+-- Compiling module ALU
+-- Compiling module DFF
+-- Compiling module DFFE
+-- Compiling module DFFS
+-- Compiling module DFFSE
+-- Compiling module DFFR
+-- Compiling module DFFRE
+-- Compiling module DFFP
+-- Compiling module DFFPE
+-- Compiling module DFFC
+-- Compiling module DFFCE
+-- Compiling module DFFN
+-- Compiling module DFFNE
+-- Compiling module DFFNS
+-- Compiling module DFFNSE
+-- Compiling module DFFNR
+-- Compiling module DFFNRE
+-- Compiling module DFFNP
+-- Compiling module DFFNPE
+-- Compiling module DFFNC
+-- Compiling module DFFNCE
+-- Compiling module DL
+-- Compiling module DLE
+-- Compiling module DLC
+-- Compiling module DLCE
+-- Compiling module DLP
+-- Compiling module DLPE
+-- Compiling module DLN
+-- Compiling module DLNE
+-- Compiling module DLNC
+-- Compiling module DLNCE
+-- Compiling module DLNP
+-- Compiling module DLNPE
+-- Compiling module INV
+-- Compiling module IBUF
+-- Compiling module OBUF
+-- Compiling module TBUF
+-- Compiling module IOBUF
+-- Compiling module IDDR
+-- Compiling module IDDRC
+-- Compiling module IDDR_MEM
+-- Compiling module ODDR
+-- Compiling module ODDRC
+-- Compiling module ODDR_MEM
+-- Compiling module IDES4
+-- Compiling module IDES4_MEM
+-- Compiling module IVIDEO
+-- Compiling module IDES8
+-- Compiling module IDES8_MEM
+-- Compiling module IDES10
+-- Compiling module OSER4
+-- Compiling module OSER4_MEM
+-- Compiling module OVIDEO
+-- Compiling module OSER8
+-- Compiling module OSER8_MEM
+-- Compiling module OSER10
+-- Compiling module IODELAY
+-- Compiling module IEM
+-- Compiling module RAM16S1
+-- Compiling module RAM16S2
+-- Compiling module RAM16S4
+-- Compiling module RAM16SDP1
+-- Compiling module RAM16SDP2
+-- Compiling module RAM16SDP4
+-- Compiling module ROM16
+-- Compiling module SP
+-- Compiling module SPX9
+-- Compiling module SDP
+-- Compiling module SDPX9
+-- Compiling module DP
+-- Compiling module DPX9
+-- Compiling module ROM
+-- Compiling module ROMX9
+-- Compiling module rSDP
+-- Compiling module rSDPX9
+-- Compiling module rROM
+-- Compiling module rROMX9
+-- Compiling module pROM
+-- Compiling module pROMX9
+-- Compiling module SDPB
+-- Compiling module SDPX9B
+-- Compiling module DPB
+-- Compiling module DPX9B
+-- Compiling module PADD18
+-- Compiling module PADD9
+-- Compiling module MULT9X9
+-- Compiling module MULT18X18
+-- Compiling module MULT36X36
+-- Compiling module MULTALU36X18
+-- Compiling module MULTADDALU18X18
+-- Compiling module MULTALU18X18
+-- Compiling module ALU54D
+-- Compiling module BUFG
+-- Compiling module BUFS
+-- Compiling module GND
+-- Compiling module VCC
+-- Compiling module GSR
+-- Compiling module OSC
+-- Compiling module PLL
+-- Compiling module TLVDS_IBUF
+-- Compiling module TLVDS_OBUF
+-- Compiling module TLVDS_TBUF
+-- Compiling module TLVDS_IOBUF
+-- Compiling module ELVDS_IBUF
+-- Compiling module ELVDS_OBUF
+-- Compiling module ELVDS_TBUF
+-- Compiling module ELVDS_IOBUF
+-- Compiling module DLL
+-- Compiling module CLKDIV
+-- Compiling module DHCEN
+-- Compiling module DQS
+-- Compiling module DLLDLY
+-- Compiling module DCS
+-- Compiling module DQCE
+
+Top level modules:
+	MUX2_LUT5
+	MUX2_LUT6
+	MUX2_LUT7
+	MUX2_LUT8
+	MUX2_MUX8
+	MUX2_MUX16
+	MUX2_MUX32
+	LUT1
+	LUT2
+	LUT3
+	LUT4
+	LUT8
+	ALU
+	DFF
+	DFFE
+	DFFS
+	DFFSE
+	DFFR
+	DFFRE
+	DFFP
+	DFFPE
+	DFFC
+	DFFCE
+	DFFN
+	DFFNE
+	DFFNS
+	DFFNSE
+	DFFNR
+	DFFNRE
+	DFFNP
+	DFFNPE
+	DFFNC
+	DFFNCE
+	DL
+	DLE
+	DLC
+	DLCE
+	DLP
+	DLPE
+	DLN
+	DLNE
+	DLNC
+	DLNCE
+	DLNP
+	DLNPE
+	INV
+	IBUF
+	OBUF
+	TBUF
+	IOBUF
+	IDDR
+	IDDRC
+	IDDR_MEM
+	ODDR
+	ODDRC
+	ODDR_MEM
+	IDES4
+	IDES4_MEM
+	IVIDEO
+	IDES8
+	IDES8_MEM
+	IDES10
+	OSER4
+	OSER4_MEM
+	OVIDEO
+	OSER8
+	OSER8_MEM
+	OSER10
+	IODELAY
+	IEM
+	RAM16S1
+	RAM16S2
+	RAM16S4
+	RAM16SDP1
+	RAM16SDP2
+	RAM16SDP4
+	ROM16
+	SP
+	SPX9
+	SDP
+	SDPX9
+	DP
+	DPX9
+	ROM
+	ROMX9
+	rSDP
+	rSDPX9
+	rROM
+	rROMX9
+	pROM
+	pROMX9
+	SDPB
+	SDPX9B
+	DPB
+	DPX9B
+	PADD18
+	PADD9
+	MULT9X9
+	MULT18X18
+	MULT36X36
+	MULTALU36X18
+	MULTADDALU18X18
+	MULTALU18X18
+	ALU54D
+	BUFG
+	BUFS
+	GND
+	VCC
+	GSR
+	OSC
+	PLL
+	TLVDS_IBUF
+	TLVDS_OBUF
+	TLVDS_TBUF
+	TLVDS_IOBUF
+	ELVDS_IBUF
+	ELVDS_OBUF
+	ELVDS_TBUF
+	ELVDS_IOBUF
+	DLL
+	CLKDIV
+	DHCEN
+	DQS
+	DLLDLY
+	DCS
+	DQCE
+
+} {} {}} D:/Quartus/SDRAM_uart/SIM/prim_sim5A.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/SIM/prim_sim5A.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling UDP mux2
+-- Compiling module MUX2
+-- Compiling module MUX2_LUT5
+-- Compiling module MUX2_LUT6
+-- Compiling module MUX2_LUT7
+-- Compiling module MUX2_LUT8
+-- Compiling module MUX2_MUX8
+-- Compiling module MUX2_MUX16
+-- Compiling module MUX2_MUX32
+-- Compiling module MUX4
+-- Compiling module MUX8
+-- Compiling module MUX16
+-- Compiling module MUX32
+-- Compiling module LUT1
+-- Compiling module LUT2
+-- Compiling module LUT3
+-- Compiling module LUT4
+-- Compiling module LUT5
+-- Compiling module LUT6
+-- Compiling module LUT7
+-- Compiling module LUT8
+-- Compiling module ALU
+-- Compiling module DFFSE
+-- Compiling module DFFRE
+-- Compiling module DFFPE
+-- Compiling module DFFCE
+-- Compiling module DLCE
+-- Compiling module DLPE
+-- Compiling module RAM16S1
+-- Compiling module RAM16S2
+-- Compiling module RAM16S4
+-- Compiling module RAM16SDP1
+-- Compiling module RAM16SDP2
+-- Compiling module RAM16SDP4
+-- Compiling module ROM16
+-- Compiling module INV
+-- Compiling module GND
+-- Compiling module VCC
+-- Compiling module GSR
+-- Compiling module IBUF
+-- Compiling module OBUF
+-- Compiling module TBUF
+-- Compiling module IOBUF
+-- Compiling module TLVDS_IBUF
+-- Compiling module TLVDS_OBUF
+-- Compiling module TLVDS_TBUF
+-- Compiling module TLVDS_IOBUF
+-- Compiling module ELVDS_OBUF
+-- Compiling module ELVDS_TBUF
+-- Compiling module ELVDS_IOBUF
+-- Compiling module MIPI_IBUF
+-- Compiling module MIPI_OBUF_A
+-- Compiling module IBUF_R
+-- Compiling module IOBUF_R
+-- Compiling module ELVDS_IOBUF_R
+-- Compiling module I3C_IOBUF
+-- Compiling module TLVDS_IBUF_ADC
+-- Compiling module SP
+-- Compiling module SPX9
+-- Compiling module SDPB
+-- Compiling module SDPX9B
+-- Compiling module DPB
+-- Compiling module DPX9B
+-- Compiling module pROM
+-- Compiling module pROMX9
+-- Compiling module SDP36KE
+-- Compiling module MULTADDALU12X12
+-- Compiling module MULTALU27X18
+-- Compiling module MULT12X12
+-- Compiling module MULT27X36
+-- Compiling module IDDR
+-- Compiling module IDDRC
+-- Compiling module IDDR_MEM
+-- Compiling module ODDR
+-- Compiling module ODDRC
+-- Compiling module ODDR_MEM
+-- Compiling module IDES4
+-- Compiling module IDES8
+-- Compiling module IDES10
+-- Compiling module IDES16
+-- Compiling module IDES4_MEM
+-- Compiling module IVIDEO
+-- Compiling module IDES8_MEM
+-- Compiling module IDES14
+-- Compiling module IDES32
+-- Compiling module OSER4
+-- Compiling module OSER4_MEM
+-- Compiling module OVIDEO
+-- Compiling module OSER8
+-- Compiling module OSER8_MEM
+-- Compiling module OSER10
+-- Compiling module OSER16
+-- Compiling module IODELAY
+-- Compiling module OSIDES32
+-- Compiling module DCE
+-- Compiling module DCS
+-- Compiling module DDRDLL
+-- Compiling module DLLDLY
+-- Compiling module CLKDIV
+-- Compiling module CLKDIV2
+-- Compiling module DHCE
+-- Compiling module OSC
+-- Compiling module OSCA
+-- Compiling module PLL
+-- Compiling module PLLA
+-- Compiling module AE350_SOC
+-- Compiling module AE350_RAM
+-- Compiling module SAMB
+-- Compiling module OTP
+-- Compiling module CMSER
+-- Compiling module CMSERA
+-- Compiling module ADCLRC
+-- Compiling module ADCULC
+-- Compiling module ADC
+-- Compiling module MIPI_DPHY_RX
+-- Compiling module MIPI_DPHY
+-- Compiling module GTR12_QUAD
+-- Compiling module GTR12_UPAR
+-- Compiling module GTR12_PMAC
+-- Compiling module DQS
+
+Top level modules:
+	MUX2_LUT5
+	MUX2_LUT6
+	MUX2_LUT7
+	MUX2_LUT8
+	MUX2_MUX8
+	MUX2_MUX16
+	MUX2_MUX32
+	LUT1
+	LUT2
+	LUT3
+	LUT4
+	LUT8
+	ALU
+	DFFSE
+	DFFRE
+	DFFPE
+	DFFCE
+	DLCE
+	DLPE
+	RAM16S1
+	RAM16S2
+	RAM16S4
+	RAM16SDP1
+	RAM16SDP2
+	RAM16SDP4
+	ROM16
+	INV
+	GND
+	VCC
+	GSR
+	IBUF
+	OBUF
+	TBUF
+	IOBUF
+	TLVDS_IBUF
+	TLVDS_OBUF
+	TLVDS_TBUF
+	TLVDS_IOBUF
+	ELVDS_OBUF
+	ELVDS_TBUF
+	ELVDS_IOBUF
+	MIPI_IBUF
+	MIPI_OBUF_A
+	IBUF_R
+	IOBUF_R
+	ELVDS_IOBUF_R
+	I3C_IOBUF
+	TLVDS_IBUF_ADC
+	SP
+	SPX9
+	SDPB
+	SDPX9B
+	DPB
+	DPX9B
+	pROM
+	pROMX9
+	SDP36KE
+	MULTADDALU12X12
+	MULTALU27X18
+	MULT12X12
+	MULT27X36
+	IDDR
+	IDDRC
+	IDDR_MEM
+	ODDR
+	ODDRC
+	ODDR_MEM
+	IDES4
+	IDES8
+	IDES10
+	IDES16
+	IDES4_MEM
+	IVIDEO
+	IDES8_MEM
+	IDES14
+	IDES32
+	OSER4
+	OSER4_MEM
+	OVIDEO
+	OSER8
+	OSER8_MEM
+	OSER10
+	OSER16
+	OSIDES32
+	DCE
+	DCS
+	DDRDLL
+	DLLDLY
+	CLKDIV
+	CLKDIV2
+	DHCE
+	OSC
+	OSCA
+	PLL
+	PLLA
+	AE350_SOC
+	AE350_RAM
+	SAMB
+	OTP
+	CMSER
+	CMSERA
+	ADCLRC
+	ADCULC
+	ADC
+	MIPI_DPHY_RX
+	MIPI_DPHY
+	GTR12_QUAD
+	GTR12_UPAR
+	GTR12_PMAC
+	DQS
+
+} {} {}} D:/Quartus/SDRAM_uart/src/cmd_decode.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/cmd_decode.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module cmd_decode
+
+Top level modules:
+	cmd_decode
+
+} {} {}} D:/Quartus/SDRAM_uart/src/uart_tx.v {1 {vlog -work work -stats=none D:/Quartus/SDRAM_uart/src/uart_tx.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}}

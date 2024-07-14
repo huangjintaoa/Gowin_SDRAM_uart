@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NES">gw5a25a-000</Device>
+    <FileList>
+        <File path="src/IPsdram_top.v" type="file.verilog" enable="1"/>
+        <File path="src/IPtop.v" type="file.verilog" enable="1"/>
+        <File path="src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.v" type="file.verilog" enable="1"/>
+        <File path="src/cmd_decode.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top/fifo_sc_top.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_aref.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_init.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_read.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_top.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_write.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram.cst" type="file.cst" enable="1"/>
+        <File path="src/sdram.sdc" type="file.sdc" enable="1"/>
+        <File path="src/sdram_uart.rao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>

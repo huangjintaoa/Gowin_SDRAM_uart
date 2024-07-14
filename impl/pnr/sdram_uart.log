@@ -1,0 +1,26 @@
+Reading netlist file: "D:\Quartus\SDRAM_uart\impl\gwsynthesis\sdram_uart.vg"
+Parsing netlist file "D:\Quartus\SDRAM_uart\impl\gwsynthesis\sdram_uart.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Quartus\SDRAM_uart\src\sdram.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "D:\Quartus\SDRAM_uart\impl\pnr\sdram_uart.pin.html" completed
+Generate file "D:\Quartus\SDRAM_uart\impl\pnr\sdram_uart.rpt.html" completed
+Generate file "D:\Quartus\SDRAM_uart\impl\pnr\sdram_uart.rpt.txt" completed
+Generate file "D:\Quartus\SDRAM_uart\impl\pnr\sdram_uart.tr.html" completed
+Sun Jul 14 17:19:24 2024
+

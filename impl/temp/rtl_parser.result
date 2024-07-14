@@ -1,0 +1,218 @@
+[
+ {
+  "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+  "InstLine" : 19,
+  "InstName" : "IPtop",
+  "ModuleFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "IPtop",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 88,
+    "InstName" : "uart_rx_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/uart_rx.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 102,
+    "InstName" : "cmd_decode_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/cmd_decode.v",
+    "ModuleLine" : 19,
+    "ModuleName" : "cmd_decode"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 121,
+    "InstName" : "wrfifo_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 140,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 161,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 132,
+    "InstName" : "rdfifo_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 140,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 161,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 145,
+    "InstName" : "uart_tx_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/uart_tx.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 163,
+    "InstName" : "Gowin_PLL_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 176,
+    "InstName" : "IPsdram_top_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/IPsdram_top.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "IPsdram_top"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/IPtop.v",
+    "InstLine" : 206,
+    "InstName" : "SDRAM_controller_top_SIP_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.v",
+    "ModuleLine" : 2864,
+    "ModuleName" : "SDRAM_controller_top_SIP",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.v",
+      "InstLine" : 3020,
+      "InstName" : "sdrc_top_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/SDRAM_controller_top_SIP/SDRAM_controller_top_SIP.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~top.SDRAM_controller_top_SIP"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 52,
+    "InstName" : "uart_rx_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/uart_rx.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 66,
+    "InstName" : "cmd_decode_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/cmd_decode.v",
+    "ModuleLine" : 19,
+    "ModuleName" : "cmd_decode"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 84,
+    "InstName" : "wrfifo_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 140,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 161,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 95,
+    "InstName" : "rdfifo_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 140,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 161,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 107,
+    "InstName" : "uart_tx_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/uart_tx.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "D:/Quartus/SDRAM_uart/src/top.v",
+    "InstLine" : 117,
+    "InstName" : "sdram_top_inst",
+    "ModuleFile" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sdram_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+      "InstLine" : 186,
+      "InstName" : "sdram_int_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/sdram_init.v",
+      "ModuleLine" : 15,
+      "ModuleName" : "sdram_init"
+     },
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+      "InstLine" : 196,
+      "InstName" : "sdram_aref_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/sdram_aref.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "sdram_aref"
+     },
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+      "InstLine" : 208,
+      "InstName" : "sdram_write_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/sdram_write.v",
+      "ModuleLine" : 18,
+      "ModuleName" : "sdram_write"
+     },
+     {
+      "InstFile" : "D:/Quartus/SDRAM_uart/src/sdram_top.v",
+      "InstLine" : 228,
+      "InstName" : "sdram_read_inst",
+      "ModuleFile" : "D:/Quartus/SDRAM_uart/src/sdram_read.v",
+      "ModuleLine" : 18,
+      "ModuleName" : "sdram_read"
+     }
+    ]
+   }
+  ]
+ }
+]

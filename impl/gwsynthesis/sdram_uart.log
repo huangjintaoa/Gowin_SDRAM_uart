@@ -1,0 +1,86 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\IPsdram_top.v'
+Undeclared symbol 'flag_200us', assumed default net type 'wire'("D:\Quartus\SDRAM_uart\src\IPsdram_top.v":91)
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\IPtop.v'
+Undeclared symbol 'flag_rst_n', assumed default net type 'wire'("D:\Quartus\SDRAM_uart\src\IPtop.v":179)
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\cmd_decode.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\fifo_sc_top\fifo_sc_top.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\sdram_aref.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\sdram_init.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\sdram_read.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\sdram_top.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\sdram_write.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\top.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\uart_rx.v'
+Undeclared symbol 'rx_neg', assumed default net type 'wire'("D:\Quartus\SDRAM_uart\src\uart_rx.v":37)
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\src\uart_tx.v'
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v'
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'
+Analyzing included file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":327)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":327)
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":150)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":150)
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_expression.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":2738)
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Analyzing included file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_parameter.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Back to file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":377)
+Analyzing Verilog file 'F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+Compiling module 'IPtop'("D:\Quartus\SDRAM_uart\src\IPtop.v":19)
+Compiling module 'uart_rx'("D:\Quartus\SDRAM_uart\src\uart_rx.v":3)
+Compiling module 'cmd_decode'("D:\Quartus\SDRAM_uart\src\cmd_decode.v":19)
+Compiling module 'fifo_sc_top'("D:\Quartus\SDRAM_uart\src\fifo_sc_top\fifo_sc_top.v":140)
+Compiling module '**'("D:\Quartus\SDRAM_uart\src\fifo_sc_top\fifo_sc_top.v":0)
+Compiling module 'uart_tx'("D:\Quartus\SDRAM_uart\src\uart_tx.v":3)
+Compiling module 'Gowin_PLL'("D:\Quartus\SDRAM_uart\src\gowin_pll\gowin_pll.v":10)
+Compiling module 'IPsdram_top'("D:\Quartus\SDRAM_uart\src\IPsdram_top.v":4)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Quartus\SDRAM_uart\src\IPsdram_top.v":207)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Quartus\SDRAM_uart\src\IPsdram_top.v":209)
+Compiling module 'SDRAM_controller_top_SIP'("D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v":2864)
+Compiling module '**'("D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v":0)
+Compiling module '**'("D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v":0)
+Compiling module '**'("D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v":0)
+Compiling module '**'("D:\Quartus\SDRAM_uart\src\SDRAM_controller_top_SIP\SDRAM_controller_top_SIP.v":0)
+Compiling module 'gw_gao'("D:\Quartus\SDRAM_uart\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Compiling module 'GW_JTAG'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v":0)
+Compiling module '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v":0)
+Compiling module '**'("F:\GOWIN\Gowin_V1.9.9_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":0)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "IPtop"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Quartus\SDRAM_uart\impl\gwsynthesis\sdram_uart.vg" completed
+[100%] Generate report file "D:\Quartus\SDRAM_uart\impl\gwsynthesis\sdram_uart_syn.rpt.html" completed
+GowinSynthesis finish

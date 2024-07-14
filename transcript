@@ -1,0 +1,2594 @@
+# Reading D:/modelsim/tcl/vsim/pref.tcl
+# OpenFile D:/Quartus/SDRAM_uart/SDRAM_uart.mpf
+# Loading project SDRAM_uart
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.tb_sdram_top
+# vsim work.tb_sdram_top 
+# Start time: 16:01:35 on Jul 14,2024
+# //  ModelSim DE-64 10.6c Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+restart
+run 
+# ** Warning: (vsim-7) Failed to open readmem file "../tx_data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v(43)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sdram_top
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+# at time    207100 ns AREF : Auto Refresh
+run 10us
+run 10us
+run 100us
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# ** Warning: (vsim-7) Failed to open readmem file "tx_data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v(43)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sdram_top
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+run
+# at time    426900 ns AREF : Auto Refresh
+# at time    458300 ns AREF : Auto Refresh
+# at time    489700 ns AREF : Auto Refresh
+# at time    521100 ns AREF : Auto Refresh
+# at time    552500 ns AREF : Auto Refresh
+# at time    583900 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run 
+# ** Warning: (vsim-7) Failed to open readmem file "tx_data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/Quartus/SDRAM_uart/SIM/tb_sdram_top.v(43)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sdram_top
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+run
+# at time    426900 ns AREF : Auto Refresh
+# at time    458300 ns AREF : Auto Refresh
+# at time    489700 ns AREF : Auto Refresh
+# at time    521100 ns AREF : Auto Refresh
+# at time    552500 ns AREF : Auto Refresh
+# at time    583900 ns AREF : Auto Refresh
+add wave -position insertpoint  \
+sim:/tb_sdram_top/IPtop_inst/sclk \
+sim:/tb_sdram_top/IPtop_inst/s_rst_n \
+sim:/tb_sdram_top/IPtop_inst/rs232_rx \
+sim:/tb_sdram_top/IPtop_inst/rs232_tx \
+sim:/tb_sdram_top/IPtop_inst/sdram_clk \
+sim:/tb_sdram_top/IPtop_inst/sdram_cke \
+sim:/tb_sdram_top/IPtop_inst/sdram_cs_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_cas_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_ras_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_we_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_bank \
+sim:/tb_sdram_top/IPtop_inst/sdram_addr \
+sim:/tb_sdram_top/IPtop_inst/sdram_dqm \
+sim:/tb_sdram_top/IPtop_inst/sdram_dq \
+sim:/tb_sdram_top/IPtop_inst/rx_data \
+sim:/tb_sdram_top/IPtop_inst/tx_trig \
+sim:/tb_sdram_top/IPtop_inst/sdram_wr_trig \
+sim:/tb_sdram_top/IPtop_inst/sdram_rd_trig \
+sim:/tb_sdram_top/IPtop_inst/wfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/wfifo_data \
+sim:/tb_sdram_top/IPtop_inst/wfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/wfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/rfifo_wr_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/rfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_empty \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_selfrefresh_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_power_down_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_data_len_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_dqm_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_wr_n_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_rd_n_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_addr_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_data_i \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_data_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_init_done_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_busy_n_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_wrd_ack_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_rd_valid_o \
+sim:/tb_sdram_top/IPtop_inst/sdram_cmd \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_clk \
+sim:/tb_sdram_top/IPtop_inst/I_sdram_clk \
+sim:/tb_sdram_top/IPtop_inst/lock_o \
+sim:/tb_sdram_top/IPtop_inst/flag_rst_n
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+run
+# at time    426900 ns AREF : Auto Refresh
+# at time    458300 ns AREF : Auto Refresh
+# at time    489700 ns AREF : Auto Refresh
+# at time    521100 ns AREF : Auto Refresh
+# at time    552500 ns AREF : Auto Refresh
+# at time    583900 ns AREF : Auto Refresh
+run
+# at time    615300 ns AREF : Auto Refresh
+# at time    646700 ns AREF : Auto Refresh
+# at time    678100 ns AREF : Auto Refresh
+# at time    709500 ns AREF : Auto Refresh
+# at time    740900 ns AREF : Auto Refresh
+# at time    772300 ns AREF : Auto Refresh
+run
+# at time    803700 ns AREF : Auto Refresh
+# at time    835100 ns AREF : Auto Refresh
+# at time    866500 ns AREF : Auto Refresh
+# at time    897900 ns AREF : Auto Refresh
+# at time    929300 ns AREF : Auto Refresh
+# at time    960700 ns AREF : Auto Refresh
+# at time    992100 ns AREF : Auto Refresh
+run
+# at time   1023500 ns AREF : Auto Refresh
+# at time   1054900 ns AREF : Auto Refresh
+# at time   1086300 ns AREF : Auto Refresh
+# at time   1117700 ns AREF : Auto Refresh
+# at time   1149100 ns AREF : Auto Refresh
+# at time   1180500 ns AREF : Auto Refresh
+run
+# at time   1211900 ns AREF : Auto Refresh
+# at time   1243300 ns AREF : Auto Refresh
+# at time   1274700 ns AREF : Auto Refresh
+# at time   1306100 ns AREF : Auto Refresh
+# at time   1337500 ns AREF : Auto Refresh
+# at time   1368900 ns AREF : Auto Refresh
+run
+# at time   1400300 ns AREF : Auto Refresh
+# at time   1431700 ns AREF : Auto Refresh
+# at time   1463100 ns AREF : Auto Refresh
+# at time   1494500 ns AREF : Auto Refresh
+# at time   1525900 ns AREF : Auto Refresh
+# at time   1557300 ns AREF : Auto Refresh
+# at time   1588700 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =   120, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =   120, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+run
+# at time    426900 ns AREF : Auto Refresh
+# at time    458300 ns AREF : Auto Refresh
+# at time    489700 ns AREF : Auto Refresh
+# at time    521100 ns AREF : Auto Refresh
+# at time    552500 ns AREF : Auto Refresh
+# at time    583900 ns AREF : Auto Refresh
+restart
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     0, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =   120, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =   120, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of IPsdram_top.v was successful.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+add wave -position insertpoint  \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/IDLE \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/WRITE_WAIT \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/WRITE \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/READ_WAIT \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/READ \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/data_len \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/DELAY_200US \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/sclk \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/s_rst_n \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_selfrefresh_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_power_down_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_data_len_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_dqm_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_wr_n_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_rd_n_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_addr_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_data_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_data_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_init_done_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_busy_n_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_wrd_ack_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_rd_valid_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_trig \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_trig \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/flag_rst_n \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/sdram_cmd \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rfifo_wr_data \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/state \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_data_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_addr_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_data_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_flag \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_flag \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/bank_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_row_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_col_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/RCD_delay_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_row_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_col_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/cnt_200us \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/data_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/flag_200us
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    18, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    52, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =    86, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    18, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    52, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =    86, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =     x, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =     x, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =     x, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =     x, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =     x, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =     x, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =     x, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =     x, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =     x, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =     x, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =   120, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =   120, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    52, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    86, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =   120, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    52, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    86, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =   120, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =   120, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    86, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =   120, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227780 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 00
+# at time    227820 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233380 ns PRE  : Bank = ALL
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    233407 ns READ : Bank = 0 Row =    0, Col =   4, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 00
+# at time    311360 ns WRITE: Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 00
+# at time    311400 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   5, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   6, Data =    52, Dqm = 0000
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   7, Data =    86, Dqm = 0000
+# at time    316980 ns PRE  : Bank = ALL
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   8, Data =   120, Dqm = 0000
+# at time    317007 ns READ : Bank = 0 Row =    0, Col =   9, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_sdram_top/IPtop_inst/IPsdram_top_inst/data_cnt'. 
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+vsim work.tb_sdram_top
+# End time: 17:11:29 on Jul 14,2024, Elapsed time: 1:09:54
+# Errors: 2, Warnings: 0
+# vsim work.tb_sdram_top 
+# Start time: 17:11:29 on Jul 14,2024
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+add wave -position insertpoint  \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/IDLE \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/WRITE_WAIT \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/WRITE \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/READ_WAIT \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/READ \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/data_len \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/DELAY_200US \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/sclk \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/s_rst_n \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_selfrefresh_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_power_down_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_data_len_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_dqm_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_wr_n_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_rd_n_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_addr_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/I_sdrc_data_i \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_data_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_init_done_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_busy_n_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_wrd_ack_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/O_sdrc_rd_valid_o \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_trig \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_trig \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/flag_rst_n \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/sdram_cmd \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rfifo_wr_data \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/state \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_data_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_addr_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_data_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_start_cnt_flag \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_flag \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_flag \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/bank_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_row_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/wr_col_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/RCD_delay_cnt \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_row_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/rd_col_addr \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/cnt_200us \
+sim:/tb_sdram_top/IPtop_inst/IPsdram_top_inst/flag_200us
+add wave -position insertpoint  \
+sim:/tb_sdram_top/IPtop_inst/sclk \
+sim:/tb_sdram_top/IPtop_inst/s_rst_n \
+sim:/tb_sdram_top/IPtop_inst/rs232_rx \
+sim:/tb_sdram_top/IPtop_inst/rs232_tx \
+sim:/tb_sdram_top/IPtop_inst/sdram_clk \
+sim:/tb_sdram_top/IPtop_inst/sdram_cke \
+sim:/tb_sdram_top/IPtop_inst/sdram_cs_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_cas_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_ras_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_we_n \
+sim:/tb_sdram_top/IPtop_inst/sdram_bank \
+sim:/tb_sdram_top/IPtop_inst/sdram_addr \
+sim:/tb_sdram_top/IPtop_inst/sdram_dqm \
+sim:/tb_sdram_top/IPtop_inst/sdram_dq \
+sim:/tb_sdram_top/IPtop_inst/rx_data \
+sim:/tb_sdram_top/IPtop_inst/tx_trig \
+sim:/tb_sdram_top/IPtop_inst/sdram_wr_trig \
+sim:/tb_sdram_top/IPtop_inst/sdram_rd_trig \
+sim:/tb_sdram_top/IPtop_inst/wfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/wfifo_data \
+sim:/tb_sdram_top/IPtop_inst/wfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/wfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_wr_en \
+sim:/tb_sdram_top/IPtop_inst/rfifo_wr_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_rd_en \
+sim:/tb_sdram_top/IPtop_inst/rfifo_rd_data \
+sim:/tb_sdram_top/IPtop_inst/rfifo_empty \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_selfrefresh_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_power_down_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_data_len_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_dqm_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_wr_n_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_rd_n_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_addr_i \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_data_i \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_data_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_init_done_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_busy_n_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_wrd_ack_o \
+sim:/tb_sdram_top/IPtop_inst/O_sdrc_rd_valid_o \
+sim:/tb_sdram_top/IPtop_inst/sdram_cmd \
+sim:/tb_sdram_top/IPtop_inst/I_sdrc_clk \
+sim:/tb_sdram_top/IPtop_inst/I_sdram_clk \
+sim:/tb_sdram_top/IPtop_inst/lock_o \
+sim:/tb_sdram_top/IPtop_inst/flag_rst_n
+restart
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh
+# Compile of older_prim_sim.v was successful.
+# Compile of prim_sim5A.v was successful.
+# Compile of sdram_model_plus.v was successful.
+# Compile of tb_sdram_top.v was successful.
+# Compile of cmd_decode.v was successful.
+# Compile of IPtop.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of fifo_sc_top.vo was successful.
+# Compile of gowin_pll.v was successful.
+# Compile of SDRAM_controller_top_SIP.vo was successful.
+# Compile of IPsdram_top.v was successful.
+# 12 compiles, 0 failed with no errors.
+run
+# at time    426900 ns AREF : Auto Refresh
+# at time    458300 ns AREF : Auto Refresh
+# at time    489700 ns AREF : Auto Refresh
+# at time    521100 ns AREF : Auto Refresh
+# at time    552500 ns AREF : Auto Refresh
+# at time    583900 ns AREF : Auto Refresh
+
+restart
+# Loading work.tb_sdram_top
+# Loading work.GSR
+# Loading work.IPtop
+# Loading work.uart_rx
+# Loading work.cmd_decode
+# Loading work.fifo_sc_top
+# Loading work.VCC
+# Loading work.GND
+# Loading work.LUT2
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.LUT4
+# Loading work.MUX16
+# Loading work.MUX8
+# Loading work.LUT3
+# Loading work.DFFCE
+# Loading work.DFFPE
+# Loading work.SDPB
+# Loading work.ALU
+# Loading work.uart_tx
+# Loading work.Gowin_PLL
+# Loading work.PLLA
+# Loading work.IPsdram_top
+# Loading work.SDRAM_controller_top_SIP
+# Loading work.IOBUF
+# Loading work.IBUF
+# Loading work.OBUF
+# Loading work.DFFRE
+# Loading work.DFFSE
+# Loading work.INV
+# Loading work.LUT1
+# Loading work.SDPX9B
+# Loading work.sdram_model_plus
+# Loading work.mux2
+run
+# at time     50240 ns PRE  : Bank = ALL
+# at time     50300 ns AREF : Auto Refresh
+# at time     50400 ns AREF : Auto Refresh
+# at time     50500 ns LMR  : Load Mode Register
+#                             CAS Latency      = 3
+#                             Burst Length     = 1
+#                             Burst Type       = Sequential
+#                             Write Burst Mode = Programmed Burst Length
+# at time     81500 ns AREF : Auto Refresh
+# at time    112900 ns AREF : Auto Refresh
+# at time    144300 ns AREF : Auto Refresh
+# at time    175700 ns AREF : Auto Refresh
+run
+# at time    207100 ns AREF : Auto Refresh
+# at time    227660 ns ACT  : Bank = 0 Row =    0
+# at time    227700 ns WRITE: Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 00
+# at time    227720 ns WRITE: Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 00
+# at time    227740 ns WRITE: Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 00
+# at time    227760 ns WRITE: Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 00
+# at time    227800 ns PRE  : Bank = ALL
+# at time    233240 ns ACT  : Bank = 0 Row =    0
+# at time    233327 ns READ : Bank = 0 Row =    0, Col =   0, Data =    18, Dqm = 0000
+# at time    233347 ns READ : Bank = 0 Row =    0, Col =   1, Data =    52, Dqm = 0000
+# at time    233360 ns PRE  : Bank = ALL
+# at time    233367 ns READ : Bank = 0 Row =    0, Col =   2, Data =    86, Dqm = 0000
+# at time    233387 ns READ : Bank = 0 Row =    0, Col =   3, Data =   120, Dqm = 0000
+# at time    238500 ns AREF : Auto Refresh
+# at time    269900 ns AREF : Auto Refresh
+# at time    301300 ns AREF : Auto Refresh
+# at time    311240 ns ACT  : Bank = 0 Row =    0
+# at time    311280 ns WRITE: Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 00
+# at time    311300 ns WRITE: Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 00
+# at time    311320 ns WRITE: Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 00
+# at time    311340 ns WRITE: Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 00
+# at time    311380 ns PRE  : Bank = ALL
+# at time    316840 ns ACT  : Bank = 0 Row =    0
+# at time    316927 ns READ : Bank = 0 Row =    0, Col =   4, Data =    18, Dqm = 0000
+# at time    316947 ns READ : Bank = 0 Row =    0, Col =   5, Data =    52, Dqm = 0000
+# at time    316960 ns PRE  : Bank = ALL
+# at time    316967 ns READ : Bank = 0 Row =    0, Col =   6, Data =    86, Dqm = 0000
+# at time    316987 ns READ : Bank = 0 Row =    0, Col =   7, Data =   120, Dqm = 0000
+# at time    332700 ns AREF : Auto Refresh
+# at time    364100 ns AREF : Auto Refresh
+# at time    395500 ns AREF : Auto Refresh

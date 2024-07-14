@@ -1,0 +1,15 @@
+-d D:\Quartus\SDRAM_uart\impl\gwsynthesis\sdram_uart.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst D:\Quartus\SDRAM_uart\src\sdram.cst
+-cfg D:\Quartus\SDRAM_uart\impl\pnr\device.cfg
+-sdc D:\Quartus\SDRAM_uart\src\sdram.sdc
+-gao_crc 0011000101100100
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-rtl_gao

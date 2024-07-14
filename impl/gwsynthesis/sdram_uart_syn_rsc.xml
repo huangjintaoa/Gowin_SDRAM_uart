@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="IPtop" Lut="2">
+    <SubModule name="uart_rx_inst" Register="31" Lut="51"/>
+    <SubModule name="cmd_decode_inst" Register="3" Lut="10"/>
+    <SubModule name="wrfifo_inst" Register="12" Alu="4" Lut="18" Bsram="1"/>
+    <SubModule name="rdfifo_inst" Register="12" Alu="4" Lut="18" Bsram="1"/>
+    <SubModule name="gw_gao_inst_0" Register="520" Alu="10" Lut="444" Bsram="19"/>
+    <SubModule name="uart_tx_inst" Register="29" Lut="42"/>
+    <SubModule name="Gowin_PLL_inst"/>
+    <SubModule name="IPsdram_top_inst" Register="124" Alu="37" Lut="159"/>
+    <SubModule name="SDRAM_controller_top_SIP_inst" Register="346" Alu="57" Lut="426" Bsram="1"/>
+</Module>
